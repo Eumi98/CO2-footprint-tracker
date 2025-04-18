@@ -1,0 +1,56 @@
+/* Ergänzende CSS-Styles zu Bootstrap */
+
+/* Logo-Anpassung */
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* RTL-Support für Bootstrap Layout */
+html[dir="rtl"] .ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+html[dir="rtl"] .text-md-end {
+    text-align: left !important;
+}
+
+/* RTL-Unterstützung für die Seitenleiste */
+@media (min-width: 768px) {
+    html[dir="rtl"] .row > aside.col-md-3 {
+        order: 2;
+    }
+    
+    html[dir="rtl"] .row > main.col-md-9 {
+        order: 1;
+    }
+}
+
+/* Inhaltsbereiche Anzeige */
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+/* Tabellenspalten-Header für Sortierung */
+th {
+    cursor: pointer;
+}
+
+/* Anpassungen für kleine Bildschirme */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }    
+}
+
+/* Benutzerdefinierte Farbe für den Header und Footer */
+.bg-marine-blue {
+    background-color: #0a3d62 !important;
+    color: white;
+}

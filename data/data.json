@@ -1,0 +1,62 @@
+[
+    {
+        "name": "China", 
+        "type": "Land", 
+        "emissions": 10065, 
+        "year": 2022
+    },
+    {
+        "name": "USA", 
+        "type": "Land", 
+        "emissions": 5416, 
+        "year": 2022
+    },
+    {
+        "name": "Indien", 
+        "type": "Land", 
+        "emissions": 2654, 
+        "year": 2022
+    },
+    {
+        "name": "Russland", 
+        "type": "Land", 
+        "emissions": 1711, 
+        "year": 2022
+    },
+    {
+        "name": "Japan", 
+        "type": "Land", 
+        "emissions": 1162, 
+        "year": 2022
+    },
+    {
+        "name": "Saudi Aramco", 
+        "type": "Unternehmen", 
+        "emissions": 620, 
+        "year": 2022
+    },
+    {
+        "name": "Gazprom", 
+        "type": "Unternehmen", 
+        "emissions": 487, 
+        "year": 2022
+    },
+    {
+        "name": "ExxonMobil", 
+        "type": "Unternehmen", 
+        "emissions": 320, 
+        "year": 2022
+    },
+    {
+        "name": "Shell", 
+        "type": "Unternehmen", 
+        "emissions": 290, 
+        "year": 2022
+    },
+    {
+        "name": "BP", 
+        "type": "Unternehmen", 
+        "emissions": 270, 
+        "year": 2022
+    }
+]
